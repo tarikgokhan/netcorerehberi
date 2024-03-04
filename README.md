@@ -1,0 +1,2 @@
+# netcorerehberi
+.NET Core Rehberi
