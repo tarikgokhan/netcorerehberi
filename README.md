@@ -54,6 +54,49 @@ dotnet run
 
 ### Visual Studio ve Visual Studio Code ile .NET Core Geliştirme
 
+.NET Core, Microsoft tarafından geliştirilen açık kaynaklı bir platform olarak, farklı işletim sistemlerinde çalışabilen uygulamaların geliştirilmesine olanak tanır. Bu rehber, Visual Studio ve Visual Studio Code kullanarak .NET Core projeleri geliştirme sürecini açıklamaktadır.
+
+## - Visual Studio ile .NET Core Geliştirme
+
+Visual Studio, Microsoft tarafından geliştirilen zengin özelliklere sahip bir tümleşik geliştirme ortamıdır (IDE). .NET Core uygulamaları geliştirmek için güçlü araçlar ve özellikler sunar.
+
+### - Kurulum ve Hazırlık
+
+1. [Visual Studio'nun en son sürümünü indirin](https://visualstudio.microsoft.com/downloads/) ve kurun. .NET Core geliştirmesi için uygun olan workload'u (örneğin, ".NET desktop development" veya "ASP.NET and web development") seçtiğinizden emin olun.
+2. Visual Studio'yu başlatın ve yeni bir proje oluşturun.
+3. "Create a new project" penceresinde, .NET Core uygulaması için uygun proje şablonunu seçin (örneğin, "Console App (.NET Core)").
+
+###  - Proje Geliştirme
+
+- Projenizi geliştirmeye başlayın. Visual Studio, kod düzenleme, hata ayıklama ve sürüm kontrolü gibi çeşitli geliştirme ihtiyaçlarınız için kapsamlı destek sunar.
+- NuGet paketlerini kullanarak projenize ekstra kütüphaneler ve araçlar ekleyebilirsiniz. Bu, projenizin "Dependencies" kısmından veya Paket Yöneticisi Konsolu aracılığıyla yapılabilir.
+
+### - Hata Ayıklama ve Test
+
+- Visual Studio'nun hata ayıklama araçlarını kullanarak uygulamanızdaki hataları bulun ve düzeltin.
+- Unit testler oluşturarak kodunuzun doğruluğunu ve güvenilirliğini artırın.
+
+## Visual Studio Code ile .NET Core Geliştirme
+
+Visual Studio Code (VS Code), Microsoft tarafından geliştirilen hafif bir kod editörüdür. Genişletilebilir yapısıyla, .NET Core dahil olmak üzere birçok farklı programlama dili için destek sunar.
+
+### Kurulum ve Hazırlık
+
+1. [VS Code'un en son sürümünü indirin](https://code.visualstudio.com/) ve kurun.
+2. .NET Core SDK'nın sistemde yüklü olduğundan emin olun.
+3. VS Code için C# uzantısını yükleyin. Bu, VS Code'un C# kodu düzenleme, hata ayıklama ve diğer özelliklerini etkinleştirir.
+
+### Proje Geliştirme
+
+- Terminali kullanarak yeni bir .NET Core projesi oluşturun. Örneğin, bir konsol uygulaması için `dotnet new console -n MyNewApp` komutunu kullanın.
+- Oluşturulan projeyi VS Code ile açın. `code MyNewApp` komutunu kullanabilirsiniz.
+- `launch.json` ve `tasks.json` dosyalarını yapılandırarak hata ayıklama oturumları için gerekli ayarları yapın.
+
+### Hata Ayıklama ve Test
+
+- VS Code'un hata ayıklama panelini kullanarak uygulamanızı adım adım çalıştırın ve hataları düzeltin.
+- Terminali kullanarak projeniz için unit testleri çalıştırın ve kod kalitenizi sürekli olarak değerlendirin.
+
 ## Temel Programlama Kavramları
 ### C# Dilinin Temelleri
 ### Değişkenler, Veri Tipleri ve Operatörler
